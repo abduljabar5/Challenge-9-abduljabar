@@ -1,25 +1,32 @@
 
-# title
+# Challenge-9-abduljabar
+
+## Table of Contents
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
 
 ## Discription
-project
+This project was a little tricky, but what kept me motivated was the little challenges i had to overcome to complete this project. The purpose of this project was to create a portfolio from scratch. This included writing html and css from scratch. I did this so i can show off project i complete in the future. during this project I learned a few things like how to add a link and how hard understanding the HTML file was when everything is tagged in<div>. i also learned more aboout @media and display flex.
 
 ## Installation
 
-link
+https://abduljabar5.github.io/challenge2/
 
 ## Usage
 
-works
+it generates readme files
 
 ![Alt text](assets/img/portfolio.png)
 
 ## Credits
-https link
+google.com
 
 ## License
 
-MIT License
+![Alt text](https://img.shields.io/github/license/abduljabar5/Challenge-9-abduljabar)
 
 Copyright (c) 2022 abduljabar5
 
@@ -43,5 +50,18 @@ SOFTWARE.
 Footer
 © 2022 GitHub, Inc.
 Footer navigation
+
+## Contributions
+
+undefined
+
+## Questions
+
+Github: https://github.com/abduljabar5
+
+Email: abduljabar.nur.8@gmail.com
+
+## Tests
+
 
 

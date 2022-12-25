@@ -6,9 +6,16 @@ const fs = require('fs');
 function writeToFile(response) {
   let you =  response.location
   let me = response.name
-  const {title,Discription,link,Usage,Credits,License} = response
+  const {title,Discription,link,Usage,Credits,email,github,contribution,test} = response
   fs.writeFile('README.md',`
 # ${title}
+
+## Table of Contents
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
 
 ## Discription
 ${Discription}
@@ -28,7 +35,7 @@ ${Credits}
 
 ## License
 
-MIT License
+![Alt text](https://img.shields.io/github/license/${github}/${title})
 
 Copyright (c) 2022 abduljabar5
 
@@ -53,11 +60,23 @@ Footer
 © 2022 GitHub, Inc.
 Footer navigation
 
+## Contributions
+
+${contribution}
+
+## Questions
+
+Github: https://github.com/${github}
+
+Email: ${email}
+
+## Tests
+
+${test}
 
 `, (err) =>
   err ? console.error(err) : console.log('Success!')
   )
-  
  }
 
 // // TODO: Create a function to write README file
@@ -99,8 +118,23 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Do you want to add License?',
-      name: 'License',
+      message: 'What is your Github username?',
+      name: 'github',
+    },
+    {
+      type: 'input',
+      message: 'What is your email?',
+      name: 'email',
+    },
+    {
+      type: 'input',
+      message: 'contribution?',
+      name: 'Any contributors',
+    },
+    {
+      type: 'input',
+      message: 'Test?',
+      name: 'test',
     },
   ])
 //   .then((response) =>
