@@ -7,8 +7,7 @@ function writeToFile(response) {
   let you =  response.location
   let me = response.name
   const {title,Discription,link,Usage,Credits,email,github,contribution,test} = response
-  fs.writeFile('README.md',`
-# ${title}
+  fs.writeFile('README.md',`# ${title}
 
 ## Table of Contents
 

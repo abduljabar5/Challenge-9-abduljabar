@@ -11,8 +11,7 @@
 This project was a little tricky, but what kept me motivated was the little challenges i had to overcome to complete this project. The purpose of this project was to create a README File generator. this was interesting becuase this was the first time working with node on a challenge. I did this so that creating readme files would become easier in the future. during this project I learned a few things like how to add a link in readme.
 ## Installation
 
-https://abduljabar5.github.io/challenge2/
-
+NA
 ## Usage
 
 it generates readme files
@@ -51,7 +50,7 @@ Footer navigation
 
 ## Contributions
 
-undefined
+NA
 
 ## Questions
 
